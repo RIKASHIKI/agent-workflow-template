@@ -1,33 +1,49 @@
 # agent-workflow-template
 
-A documentation template that helps coding agents stay focused, follow project constraints, understand the reasons behind technical decisions, and continue work across sessions.
+A reusable documentation system that keeps AI coding agents focused, constrained, and able to continue work across sessions.
 
-## Getting Started
+## What This Template Provides
 
-1. Copy this structure and replace the placeholders to match your project.
-2. Fill in `AGENTS.md` with a short project overview and relevant reading paths.
-3. Define the active milestone in `docs/roadmap.md` (only one at a time).
-4. Establish project rules in `docs/guidelines.md` and record agreed technical decisions in `docs/architecture.md`.
-5. At the end of each session, append a short entry to `CHANGELOG-agent.md`.
+- `AGENTS.md`: the entry point and concise operational index.
+- `docs/roadmap.md`: the active goal and verifiable completion criteria.
+- `docs/guidelines.md`: mandatory, preferred, and prohibited project rules.
+- `docs/architecture.md`: Architecture Decision Records (ADRs) for durable technical choices.
+- `CHANGELOG-agent.md`: append-only, three-item context for the end of each session.
 
-## Structure
+## Using the Template
+
+1. Copy this repository as a starting point for the target project.
+2. Replace the **Project Context** section in `AGENTS.md` with confirmed facts.
+3. Keep only project-wide rules in `docs/guidelines.md`; remove all examples that do not apply.
+4. Open one milestone in `docs/roadmap.md` and write acceptance criteria that can be verified.
+5. Record only decisions that have actually been made in `docs/architecture.md`.
+6. Append one entry to `CHANGELOG-agent.md` when a session ends.
+
+## Documentation Rules
+
+- The user’s direct instruction is the highest-priority source for each task.
+- Project precedence is declared in `AGENTS.md`.
+- Read only the documents necessary for the current task.
+- Clearly distinguish verified facts, assumptions, proposed work, and unresolved questions.
+- Never invent project architecture, dependencies, test results, users, or decisions.
+- Do not use an example as a real requirement until the project owner confirms it.
+- Keep the roadmap, guidelines, architecture, and changelog synchronized with their respective update rules.
+
+## Repository Structure
 
 ```text
 .
-├── AGENTS.md              # Agent entry point and instruction index
-├── CHANGELOG-agent.md     # Cross-session memory, append-only
-└── docs/
-    ├── roadmap.md         # Active milestone and completion criteria
-    ├── guidelines.md      # Required rules, preferences, and prohibitions
-    └── architecture.md    # Technical decisions and their rationale (ADRs)
+├── AGENTS.md
+├── CHANGELOG-agent.md
+├── docs/
+│   ├── architecture.md
+│   ├── guidelines.md
+│   └── roadmap.md
+└── README.md
 ```
 
-## Usage Principles
+## Example Versus Real Context
 
-- Read only the documents needed for the task; `AGENTS.md` directs the agent to the relevant documents.
-- Direct user instructions determine task scope. For conflicting project rules, follow the precedence order in `AGENTS.md`; ask for clarification if a conflict cannot be resolved safely.
-- Every roadmap criterion must be verifiable. Do not move to another milestone without user approval.
-- Record new decisions as ADRs; do not erase the history of superseded decisions.
-- Append changelog entries only at the end of a session, using the fixed three-item format.
+Because this repository is a template, it contains annotated examples rather than facts about a particular application. Before applying it to a real project, replace or remove them. In `docs/architecture.md`, for example, none of the sample decisions should be treated as accepted architecture until a real ADR is written and approved.
 
-This template does not assume a programming language, framework, or test command. Replace examples and placeholders so they fit your repository.
+This template is documentation, not a substitute for source code, test output, package manifests, database schemas, or direct user requirements.

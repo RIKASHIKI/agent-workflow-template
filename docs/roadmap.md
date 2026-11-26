@@ -1,24 +1,46 @@
 # Roadmap
 
-The roadmap states the goal currently being worked on and provides evidence that the work is complete. Adapt milestones to the project; do not treat examples or placeholders as approved requirements.
+The roadmap records goals and measurable evidence of completion. This template has no approved milestone because no target project has supplied one.
 
 ## Milestone Rules
 
-- Have at most one milestone with status **🔄 in progress** at a time.
-- Work only on the active milestone. Do not skip ahead or open the next milestone without user approval.
-- Every item must be provably true or false through a clearly stated test, inspection, or review.
-- Open or close milestones only when their scope and completion criteria have been agreed upon. Do not update the roadmap for every small change.
-- If no milestone is active, ask the user to determine the priority; do not choose one yourself.
+- Keep at most one milestone with status **🔄 In Progress**.
+- Do not start implementation until the active milestone and scope are explicit.
+- Every item must include an observable verification method.
+- Do not open or close a milestone merely because of a small implementation change.
+- Do not select or invent a milestone without user approval.
+- Status values are:
+  - `📋 Proposed`
+  - `🔄 In Progress`
+  - `⏸ On Hold`
+  - `✅ Complete`
+  - `🚫 Cancelled`
 
-## Milestones
+## Active Milestone
 
-### M1: [Milestone name]
-**Status:** 🔄 in progress
+**No active milestone is currently approved.**
 
-- [ ] [First measurable criterion; state how to verify it]
-- [ ] [Second measurable criterion]
-- [ ] [Third measurable criterion, if needed]
+Before implementation begins, the user must provide or approve a milestone with:
 
-**Definition of Done:** [Specific verification command or review checklist; remove or replace if unknown.]
+- A concise goal.
+- A bounded scope.
+- Verifiable acceptance criteria.
+- A definition of done.
+- Any constraints or dependencies.
 
-<!-- Add the next milestone after approval. Ensure that only one milestone is in progress. -->
+## Milestone Template
+
+### M1: [Replace with the approved milestone name]
+**Status:** 📋 Proposed
+
+- [ ] [Testable criterion; include the verification method]
+- [ ] [Testable criterion; include the verification method]
+- [ ] [Testable criterion; include the verification method]
+
+**Definition of Done:** [List the exact commands or review evidence required. Replace this text before implementation begins.]
+
+**Out of scope:** [List requested exclusions or constraints.]
+
+**Blocked by:** [Dependencies or unresolved questions, if any.]
+
+<!-- Remove or replace this template before using the roadmap as real project instructions. -->

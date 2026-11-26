@@ -1,37 +1,53 @@
 # Architecture and Technical Decisions
 
-This document records the reasoning behind agreed technical decisions. Use the ADR format below for new decisions. Do not delete old ADRs; when a decision is superseded, change the old ADR's status to **Superseded by ADR-XXX** and add the replacement ADR.
+This document records durable technical decisions using Architecture Decision Records (ADRs).
+
+No real architecture decisions are made by this template. The sample below is an example format only and must not be copied into a project as an accepted decision.
 
 ## ADR Status
 
 - **Proposed** — awaiting approval.
-- **Accepted** — approved and used as a project reference.
-- **Rejected** — considered but not selected; preserve the reasoning if useful.
+- **Accepted** — approved and used as project guidance.
+- **Rejected** — considered but not selected.
 - **Superseded by ADR-XXX** — replaced by a newer decision.
+
+## ADR Record Rules
+
+- Add an ADR when a decision is hard to reverse or affects long-term structure.
+- Record the context, decision, rationale, consequences, and relevant alternatives.
+- Never remove an existing decision record.
+- Update only the status of a superseded ADR, adding a clear replacement reference.
+- Mark assumptions and unknowns rather than presenting guesses as facts.
 
 ---
 
-## ADR-001: [Decision title]
+## ADR-000: [Example decision title — not approved]
 
 **Date:** [YYYY-MM-DD]  
-**Status:** Proposed | Accepted | Rejected | Superseded by ADR-XXX
+**Status:** Proposed
 
 ### Context
 
-[The problem, constraints, and requirements that prompted the decision.]
+[Describe the actual problem, constraints, and requirements.]
 
 ### Decision
 
-[The decision that was made. Do not present alternatives as the decision.]
+[Describe the agreed decision here. This example is not an active decision.]
 
 ### Rationale
 
-[Why this decision was selected over relevant alternatives.]
+[Explain why this option was selected over relevant alternatives.]
 
 ### Consequences
 
-[Trade-offs, limitations, and impacts on development or operations.]
+[Describe trade-offs, limitations, migration work, and operational effects.]
 
-### Alternatives Considered (optional)
+### Alternatives Considered
 
-- [Alternative — reason it was not selected]
+- [Alternative — why it was not selected]
+
+---
+
+## Current Accepted Decisions
+
+No project-specific decisions are currently accepted. Add a numbered ADR when a decision has actually been made and approved.

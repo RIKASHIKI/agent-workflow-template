@@ -1,10 +1,14 @@
 # Agent Changelog
 
-A concise record for carrying context across sessions. **Append-only:** add new entries at the top; do not edit or delete older entries. Write an entry only at the end of a session, not for every small change.
+This changelog preserves concise context between sessions. It is append-only: add new entries at the top, without editing or deleting older entries.
 
-Use exactly three items for each session: what was completed, why work stopped (or its status if complete), and the next step. Do not record secrets or credentials.
+Write one entry at the end of a session, not after every small edit. Use exactly three items and do not include secrets or credentials.
 
-## [YYYY-MM-DD] — [optional: session number]
-- **Completed:** [Concrete work that was completed; or “No changes made.”]
-- **Stopped because:** [Reason work stopped, question awaiting an answer, or “Session complete.”]
-- **Next step:** [Specific next action; or “Determine together with the user.”]
+## Entry Template
+
+## [YYYY-MM-DD] — Session [optional number]
+- **Completed:** [Concrete work completed; use “No changes made” if nothing changed.]
+- **Stopped because:** [Reason work stopped, unresolved question, or “Session complete.”]
+- **Next step:** [Specific next action, or “Ask the user to approve the next milestone.”]
+
+<!-- Add completed entries above this template. Do not treat this template as a historical session entry. -->
