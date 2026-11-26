@@ -1,24 +1,24 @@
 # Roadmap
 
-Roadmap menyatakan tujuan yang sedang dikerjakan dan bukti bahwa pekerjaan selesai. Sesuaikan milestone dengan proyek; jangan anggap contoh atau placeholder sebagai kebutuhan yang sudah disetujui.
+The roadmap states the goal currently being worked on and provides evidence that the work is complete. Adapt milestones to the project; do not treat examples or placeholders as approved requirements.
 
-## Aturan milestone
+## Milestone Rules
 
-- Maksimal satu milestone berstatus **🔄 berjalan** pada satu waktu.
-- Kerjakan milestone berjalan saja. Jangan melompat atau membuka milestone berikutnya tanpa persetujuan pengguna.
-- Setiap butir harus dapat dibuktikan benar/salah melalui tes, pemeriksaan, atau review yang dinyatakan jelas.
-- Buka atau tutup milestone hanya ketika lingkup dan kriteria selesai disepakati. Jangan memperbarui roadmap untuk setiap perubahan kecil.
-- Jika belum ada milestone aktif, minta pengguna menentukan prioritas; jangan memilih sendiri.
+- Have at most one milestone with status **🔄 in progress** at a time.
+- Work only on the active milestone. Do not skip ahead or open the next milestone without user approval.
+- Every item must be provably true or false through a clearly stated test, inspection, or review.
+- Open or close milestones only when their scope and completion criteria have been agreed upon. Do not update the roadmap for every small change.
+- If no milestone is active, ask the user to determine the priority; do not choose one yourself.
 
-## Milestone
+## Milestones
 
-### M1: [Nama milestone]
-**Status:** 🔄 berjalan
+### M1: [Milestone name]
+**Status:** 🔄 in progress
 
-- [ ] [Kriteria terukur pertama; sebutkan cara memverifikasinya]
-- [ ] [Kriteria terukur kedua]
-- [ ] [Kriteria terukur ketiga, bila diperlukan]
+- [ ] [First measurable criterion; state how to verify it]
+- [ ] [Second measurable criterion]
+- [ ] [Third measurable criterion, if needed]
 
-**Definition of Done:** [Perintah pemeriksaan atau checklist review yang spesifik; hapus/ganti jika belum diketahui.]
+**Definition of Done:** [Specific verification command or review checklist; remove or replace if unknown.]
 
-<!-- Tambahkan milestone berikutnya setelah disetujui. Pastikan hanya satu status yang berjalan. -->
+<!-- Add the next milestone after approval. Ensure that only one milestone is in progress. -->
